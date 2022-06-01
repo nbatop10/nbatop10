@@ -1,0 +1,88 @@
+/* Style sheet created by Nishanth, 3/10/22 */
+
+/* Style for body specifies a background color */
+
+/* body  {
+  background-image: url("../images/nba.jpg");
+  background-repeat:no-repeat;
+  background-size: auto;
+  
+} */
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7cb0d4;
+  list-style-type: none;
+}
+
+.navbar a.active {
+  background-color: #8e3146;
+  color: white;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+/* li {
+	 float: left; 
+  } */
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #8e3146;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.home {
+  text-align: center;
+}
+/*Style to create a fluid image */
+img {
+  max-width: 100%;
+}
+
+header div {
+  background-image: url("../images/nba.jpg");
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+h1 {
+  padding-left: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+h2 {
+  padding-left: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* .players{
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+	} */
+
+.home {
+  color: #133248;
+  font-weight: bold;
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(232, 233, 223);
+}
